@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "electrical-design-tools"
+version = "0.1.0"
+description = "Python-based electrical design and calculation helpers"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "dilaraakpinar457-bot" }]
+license = { text = "MIT" }
+keywords = ["electrical", "engineering", "wiring", "lighting", "calculator"]
+
+[tool.setuptools]
+packages = ["electrical_design_tools"]
